@@ -1,0 +1,21 @@
+Input:
+-------------------------------------
+singing
+q1,q2,q3,q4
+s,i,n,g
+q1
+q4
+q1,s,q1
+q1,i,q1
+q1,i,q2
+q1,n,q1
+q1,g,q1
+q2,n,q3
+q3,g,q4
+=====================================
+Output:
+-------------------------------------
+Output from singing on singing
+Leaf Nodes: 2
+Number of accepting states: 1
+Path 0: ['q1', 'q1', 'q1', 'q1', 'q1', 'q2', 'q3', 'q4']
